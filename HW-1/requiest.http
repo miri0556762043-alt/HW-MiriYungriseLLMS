@@ -1,0 +1,11 @@
+Send Request
+POST http://example.com/comments HTTP/1.1
+content-type: application/json
+I
+
+"name": "sample",
+"time": "Wed, 21 Oct 2015 18:27:50 GMT"
+
+###
+Send Request
+GET http://localhost:8000/health HTTP/1.1
